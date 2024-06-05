@@ -1,7 +1,7 @@
 // CLIENT BASED COMPONENT
 "use client"
 import { useEffect, useState } from 'react';
-import ArticleList from "@/components/ArticleList"
+import ArticleList from "../component/ArticleList"
 
 export default function Home() {
   const [articles, setArticles] = useState([]);
